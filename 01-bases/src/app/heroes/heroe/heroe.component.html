@@ -6,5 +6,19 @@
 
     <td>Edad:</td>
     <dd>{{edad}}</dd>
+
+    <td>Función Edad:</td>
+    <dd>{{obtenerNombre()}}</dd>
+
+    <td>Nombre Captalizado:</td>
+    <dd>{{nombreCapitalizado}}</dd>
 </ul>
+
+<button (click)="cambiarNombre()">
+    Cambiar Héroe
+</button>
+
+<button (click)="cambiarEdad()">
+    Cambiar Edad
+</button>
 

@@ -1,0 +1,10 @@
+Crear Componente
+    ng generate component heroes/nuevo-componente1
+    ng g c heroes/nuevo-componente2
+
+Crear Componente sin el archivo de pruebas
+    ng g c heroes/nuevo-componente2 --skipTests
+
+Crear Módulo
+    ng generate module heroes/nuevo-componente1
+    ng g m heroes/nuevo-componente1
