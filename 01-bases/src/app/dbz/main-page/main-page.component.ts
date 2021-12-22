@@ -19,7 +19,7 @@ export class MainPageComponent {
     },
     {
       nombre: 'Vision01',
-      poder: 78
+      poder: 54
     }
   ];
 
@@ -39,7 +39,6 @@ export class MainPageComponent {
       poder: 0,
     };
     console.log(this.personajes, '???????');
-    
   }
 
 }
