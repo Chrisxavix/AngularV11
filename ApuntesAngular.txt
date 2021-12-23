@@ -8,3 +8,4 @@ Crear Componente sin el archivo de pruebas
 Crear Módulo
     ng generate module heroes/nuevo-componente1
     ng g m heroes/nuevo-componente1
+    testv1
