@@ -3,10 +3,12 @@
 
 <div class="row">
     <div class="col">
+        <!-- Envío los personajes declarados del main -->
         <app-personajes [arrayPersonajes]="personajes"></app-personajes>
     </div>
 
     <div class="col">
-        <app-agregar [nuevo]="nuevo" [arrayPersonajes]="personajes"></app-agregar>
+        <!-- El nuevo envía valores para tener definido por defecto -->
+        <app-agregar [nuevo]="nuevo" (onNuevoPersonaje)="agregarNuevoPersonaje($event)"></app-agregar>
     </div>
 </div>
